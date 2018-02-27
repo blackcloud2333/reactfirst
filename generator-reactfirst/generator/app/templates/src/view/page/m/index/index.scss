@@ -1,0 +1,46 @@
+@import "/public/lib/rem";
+ .m_pingan_content {
+    background: url('images/pingan_hires.jpg') center center no-repeat;
+    width: 100%;
+    box-sizing: border-box;
+    padding-top: 710.9333333%;
+    background-size: contain;
+  }
+  .m_pingan_connection {
+    font-family: '微软雅黑';
+    position: absolute;
+    top: rem(1880);
+    left: 38%;
+    font-size: 0.5rem;
+  }
+  .m_pingan_hire_qq {
+      color: #A83A21; 
+  }
+  .m_pingan_hire_dot {
+     color: #A83A21;
+     margin: 0 rem(5);
+  }
+  .m_pingan_hire_num {
+    color: #A83A21;
+    font-weight: bold;
+     
+  }
+  .m_pingan_obs {
+    background: url('images/pingan_obs.png') center center no-repeat;
+    height: rem(117);
+    width: 50%;
+    margin-bottom: rem(15);
+    position: absolute;
+    top: rem(4985);
+    left: 25.3%;
+    background-size: contain;
+  }
+  .m_pingan_zhibo {
+    background: url('images/pingan_zhibo.png') center center no-repeat;
+    height:rem(117);
+    width: 50%;
+    position: absolute;
+    top:rem(5125);
+    background-size: contain;
+    left: 25.3%;   
+  }

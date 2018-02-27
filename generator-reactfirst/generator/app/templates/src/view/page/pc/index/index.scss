@@ -1,0 +1,59 @@
+.pinganhire_activity {
+  min-width: 1200px;
+}
+.pingan_content {
+  background: url('images/pingan_hire.jpg') center center no-repeat;
+  width: 100%;
+  height: 3986px;
+  box-sizing: border-box;
+}
+.pingan_connection {
+  font-size: 32px;
+  font-family: '微软雅黑';
+   position: absolute;
+   top: 1623px;
+   left: 46.51%;
+}
+.pingan_hire_qq {
+    color: #A83A21; 
+}
+.pingan_hire_dot {
+   color: #A83A21;
+}
+.pingan_hire_num {
+  color: #A83A21;
+  font-weight: bold;
+   
+}
+.pingan_teach {
+  position: absolute;
+  bottom: 180px;
+  left: 20.6%;
+}
+.pingan_obs {
+  background: url('images/pingan_obs.png') center center no-repeat;
+  height: 125px;
+  width: 372px;
+   float: left;
+   margin-right: 52px;
+}
+.pingan_zhibo {
+  background: url('images/pingan_zhibo.png') center center no-repeat;
+  height: 125px;
+  width: 372px;
+  position: absolute;
+}
+.w1500 {
+  .pingan_teach {
+    position: absolute;
+    bottom: 180px;
+    left: 28.6%;
+  }
+}
+.w1200{
+  .pingan_teach {
+    position: absolute;
+    bottom: 180px;
+    left: 28.6%;
+  }
+}

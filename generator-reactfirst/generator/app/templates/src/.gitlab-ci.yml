@@ -1,0 +1,26 @@
+stages:
+  - lint
+  - build
+  - test
+
+eslint:
+  stage: lint
+  script:
+    - npm run lint
+  only:
+    - branches
+
+qmis:
+  stage: build
+  variables:
+    QM_RUNNER_HOME: "/home/gitlab-runner"
+    QM_PREVIEW_DEPLOY_PATH: "$QM_RUNNER_HOME/preview/$CI_BUILD_REF_SLUG"
+    QM_PUBLISH_GIT: "git@git.quanmin.tv:h5/pc-3.0.git"
+  script:
+    - sh ./gitlab-ci/build.sh
+    - cd $QM_PREVIEW_DEPLOY_PATH
+    - git add -A
+    - git commit -m "build from https://git.quanmin.tv/$CI_PROJECT_PATH/commit/$CI_BUILD_REF"
+    - git push origin $CI_BUILD_REF_NAME
+  only:
+    - branches

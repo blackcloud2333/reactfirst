@@ -1,0 +1,11 @@
+{
+  "name": "activity-pinganrecruit",
+  "version": "1.0.0",
+  "description": "圣诞趴",
+  "scripts": {
+    "lint": "eslint .",
+    "dev": "qmis release -cmwd ../pc-3.0"
+  },
+  "author": "",
+  "license": "ISC"
+}

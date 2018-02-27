@@ -1,0 +1,6 @@
+public/**/*.js
+controller/**/*.js
+service/**/*.js
+router.js
+global-conf.js
+fis-conf.js

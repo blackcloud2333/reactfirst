@@ -1,8 +1,11 @@
 {
   "name": "generator-reactfirst",
-  "version": "0.0.2",
+  "version": "0.1.2",
   "description": "一个基于简单活动页的代码生成器",
-  "main": "index.js",
+  "files": [
+    "generators"
+  ],
+  "main":"app/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,5 +13,8 @@
     "yeoman-generator"
   ],
   "author": "blacksheepQAQ",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "yeoman-generator": "^2.0.3"
+  }
 }
